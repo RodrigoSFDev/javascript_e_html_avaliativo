@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercicio09</title>
+</head>
+<body>
+  <section id="section_form ">
+    <form action="#" id="form">
+        <h1>Cadastrar usuário</h1>
+        <Section id="email_password">   
+            <label for="name">Seu nome completo:
+              <input type="text" name="name" id="name" required>
+            </label>
+            <label for="email">Seu email:
+              <input type="email" name="email" id="email" required>
+            </label>
+          <label for="senha">Sua senha:
+            <input type="password" name="senha" id="password" required maxlength="10" minlength="6">
+          </label>
+          <label for="senha2">Repita a senha:
+            <input type="password" name="senha2" id="password2" required maxlength="10" minlength="6"> 
+          </label>
+        </Section> 
+        <button type="submit" id="btn" disabled="disabled">Cadastrar</button>
+    </form>
+</section>
+</body>
+<script src="script.js"></script>
+</html>
